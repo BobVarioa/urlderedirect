@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "Url DeRedirect",
+	"version": "1.0",
+	"description": "NO more redirects >:(",
+	"content_scripts": [
+		{
+			"js":[ "scripts/content.js"],
+			"matches": [
+				"<all_urls>"
+			],
+			"run_at": "document_end"
+		}
+	],
+	"permissions": [
+		"storage"
+	],
+	"background": {
+		"service_worker": "scripts/startup.js"
+	}
+}

@@ -1,0 +1,41 @@
+{
+  "google": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?google(?:\\.[a-z]{2,}){1,}\\/amp\\/s\\/([^&]+)"
+  ],
+  "doubleclick": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?doubleclick(?:\\.[a-z]{2,}){1,}\\/.*?tag_for_child_directed_treatment=;%3F([^&]*)"
+  ],
+  "amazon-adsystem": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?amazon-adsystem(?:\\.[a-z]{2,}){1,}\\/x\\/c\\/.+?\\/([^&]+)"
+  ],
+  "ebay": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?rover\\.ebay(?:\\.[a-z]{2,}){1,}\\/rover.*mpre=([^&]*)"
+  ],
+  "mozaws.net": [
+    "https?:\\/\\/[^/]+\\/v1\\/[0-9a-f]{64}\\/(.*)"
+  ],
+  "deviantart.com": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?deviantart\\.com\\/.*?\\/outgoing\\?(.*)"
+  ],
+  "site2.com": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?site2\\.com.*?\\?.*=(.*)"
+  ],
+  "rutracker.org": [
+    ".*url=([^&]*)"
+  ],
+  "instagram": [
+    ".*u=([^&]*)"
+  ],
+  "imgsrc.ru": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?dlp\\.imgsrc\\.ru\\/go\\/\\d+\\/\\d+\\/\\d+\\/([^&]*)"
+  ],
+  "awstrack.me": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?awstrack\\.me\\/.*\\/(https?.*?)\\/"
+  ],
+  "anonym.to": [
+    "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?anonym\\.to.*\\?([^&]*)"
+  ],
+  "ccbill.com": [
+    "^https?:\\/\\/refer\\.ccbill\\.com.*HTML=([^&]*)"
+  ],
+}
